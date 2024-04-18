@@ -9,33 +9,9 @@
     "id" :"/index.html",
     "icons": [
         {
-          "src": "images/16x16.png",
-          "type": "image/png",
-          "sizes": "16x16"
-        },
-        {
-          "src": "images/32x32.png",
-          "type": "image/png",
-          "sizes": "32x32"
-        },
-        {
-          "src": "images/64x64.png",
-          "type": "image/png",
-          "sizes": "64x64"
-        },
-        {
-          "src": "images/128x128.png",
-          "type": "image/png",
-          "sizes": "128x128"
-        },
-        {
-          "src": "images/256x256.png",
+          "src": "images/map.png",
           "type": "image/png",
           "sizes": "256x256"
-        },
-        {
-          "src": "images/512x512.png",
-          "type": "image/png",
-          "sizes": "512x512"
-        }]
+        }
+      ]
 }
