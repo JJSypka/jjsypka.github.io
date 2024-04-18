@@ -2,11 +2,12 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Mobilna aplikacja webowa</title>
+    <title>PWA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
+
 </head>
 <body>
     <div class="container">
@@ -15,10 +16,12 @@
         <h1>Jędrzej Sypka 222167</h1>
         
         
-        <div class="menu">
-            <button id="mapButton" class="btn btn-primary">Mapa</button>
-            <button id="sosButton" class="btn btn-danger">SOS</button>
-        </div>
+        <li class="nav-item">
+            <a class="nav-link" href="./sos.html">Sos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./map.html">Map</a>
+          </li>
 
         <div id="mapContainer" style="display:none;">
             <div id="map"></div>
