@@ -1,14 +1,19 @@
+var cacheName = 'PWA';
+var filesToCache = [
+  '/',
+  '/index.html',
+  '/mapa.html',
+  '/sos.html',
+  '/styles.css',
+  '/app.js',
+  
+];
+
+
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('app-cache').then(function(cache) {
-            return cache.addAll([
-                './',
-                './index.html',
-                './styles.css',
-                './app.js',
-                './manifest.json',
-                './icon-192x192.png'
-            ]);
+            return cache.addAll(filesToCache);
         })
     );
 });
